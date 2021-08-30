@@ -452,7 +452,7 @@ model-viewer {
 /* ----------------------contact info------------------ */
 .contact
 {
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: #fff;
     
 }
@@ -555,7 +555,7 @@ model-viewer {
 .workshop h2
 {
     margin-left: 100px;
-    margin-top: 400px;
+    margin-top: 390px;
 }
 .depimg2 img
 {
@@ -996,7 +996,7 @@ model-viewer {
 /* -------------------content------------- */
 .contact
 {
-    margin-top: 170px;
+    margin-top: 250px;
     background-color: #fff;
     
 }
@@ -1025,13 +1025,13 @@ model-viewer {
 .market h2,.marktdep h2,.workshop h2
 {
     width: 90%;
-    font-size: 4.5vw;
+    font-size: 4.2vw;
     margin-left: 20px;
 }
 .market ul
 {
     margin-left: 40px;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .marke p,.market p,.marktdep p
 {
@@ -1059,6 +1059,7 @@ model-viewer {
 }
 #prdct h2
 {
+    font-size: 20px;
     width: 90%;
     margin-left: 20px;
 }

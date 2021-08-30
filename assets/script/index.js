@@ -17,7 +17,7 @@ $(document).ready(function(){
     // typing ----------aninimation
     
     var typed = new Typed(".typ",{
-        strings: [" TRADING "," CONTRACTIN"],
+        strings: [" TRADING "," CONTRACTING"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

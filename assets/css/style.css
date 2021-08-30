@@ -18,6 +18,7 @@ html
 body
 {
     background:none;
+    width: 100%;
 }
 span
 {
@@ -238,7 +239,7 @@ model-viewer {
     
     background-color: #fff;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     
     
 }
@@ -397,7 +398,7 @@ model-viewer {
 .outl
 {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .outl h2
 {
@@ -451,6 +452,7 @@ model-viewer {
 /* ----------------------contact info------------------ */
 .contact
 {
+    margin-top: 30px;
     background-color: #fff;
     
 }
@@ -544,7 +546,7 @@ model-viewer {
    
     margin-left: 100px;
     margin-top: 40px;
-    width: 360px;
+    width: 300px;
     z-index: 0;
     opacity: .3;
     height: auto;
@@ -560,7 +562,7 @@ model-viewer {
     position: absolute;
     margin-top: 380px;
     margin-left: 100px;
-    width: 360px;
+    width: 300px;
     z-index: 0;
     opacity: .3;
     height: auto;
@@ -569,11 +571,12 @@ model-viewer {
 .workshop p
 {
     margin-left: 100px;
-    margin-top: 450px;
+    margin-top: 420px;
 }
 /* -----------------------product-------------------------- */
 #prdct
 {
+    margin-top: 60px;
     background-color: #fff;
     width: 100%;
     height: 100vh;
@@ -776,6 +779,9 @@ footer span a:hover{
 
 
 @media (max-width:720px){
+    .home{
+        background-color: #101418;
+    }
     #aSide
     {
         height: 400px;
@@ -958,7 +964,8 @@ model-viewer {
 /* ------------------outline ------------------- */
 .outline
 {
-   
+
+    width: 100%;
     height: 100vh;
     }
 
@@ -972,20 +979,27 @@ model-viewer {
 .outl .aa
 {
     margin-left: 20px;
-    width: 360px;
+    width: 320px;
 }
 .outl .bb
 {
     margin-left: 20px;
-    margin-top: 320px;
-    width: 360px;
+    margin-top: 350px;
+    width: 320px;
 }
 .readbtn
 {
     margin-left: 20px;
-    margin-top: 320px;
+    margin-top: 350px;
+  
 }
 /* -------------------content------------- */
+.contact
+{
+    margin-top: 170px;
+    background-color: #fff;
+    
+}
 .contact h1
 {
     width: 90%;
@@ -1005,7 +1019,8 @@ model-viewer {
 /* ------------------------market---------------------- */
 .market
 {
-    width: 360px;
+    height: 120vh;
+    width: 350px;
 }
 .market h2,.marktdep h2,.workshop h2
 {
@@ -1021,16 +1036,26 @@ model-viewer {
 .marke p,.market p,.marktdep p
 {
     margin-left: 20px;
-    width: 360px;
+    width: 320px;
 }
 .depimg2 img,.depimg img
 {
     margin-left: 20px;
 }
+.workshop p
+{
+    margin-bottom: 80px;
+}
 /* ----------------------card----------------- */
 #prdct
 {
-    height: 80vh;
+    
+    margin-top: 200px;
+    height: 100vh;
+}
+.prdct1
+{
+    margin-top: 50px;
 }
 #prdct h2
 {
@@ -1046,11 +1071,13 @@ model-viewer {
 .pol 
 {
     width: 90%;
-    height: 70vh;
+   
+    background-color: #fff;
     
 }
 .pol h2,.pol p
 {
+    margin-top: 10px;
     margin-left: 20px;
 }
 .pol ul
@@ -1064,22 +1091,22 @@ model-viewer {
 }
 .spon .im img
 {
-    width: 80px;
+    width: 75px;
     margin-left: 10px;
 }
 .spon h2
 {
-    width: 300px;
+    width: 280px;
     font-size: 25px;
 }
 .spo
 {
-    width: 300px;
+    width: 280px;
    
 }
 .spo .imt img
 {
-    width: 80px;
+    width: 75px;
     margin-left: 10px;
 }
 }

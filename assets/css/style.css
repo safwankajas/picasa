@@ -1,0 +1,1085 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Oswald:wght@400;502&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Ubuntu",sans-serif;
+   
+   
+}
+
+html
+{
+    scroll-behavior: smooth;
+
+}
+body
+{
+    background:none;
+}
+span
+{
+    font-size: 25px;
+    color: #a80404;
+}
+.max-width
+{
+    max-width: 1000px;
+    padding: 0  20px;
+    margin: auto;
+}
+.navabar
+{
+    z-index: 999;
+    background: #101418b9;
+    position: fixed;
+    padding: 15px 0 ;
+    width: 100%;
+    font-family: "Ubuntu",sans-serif;
+    transition: all 0.3s ease;
+
+}
+.navabar.sticky
+{
+    padding: 15px 0;
+    background: #101418;
+
+}
+.navabar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.navabar .log a
+{
+    position: absolute;   
+    color: #f7f7f5;
+    margin-top: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 550;
+    font-size: 1.5em;
+   letter-spacing: .03em;
+    
+}
+
+.navabar .log img
+{
+    height: 30px;
+    width: auto;
+}
+
+
+
+.navabar .menu li
+{
+    list-style: none;
+    display: inline-block;
+}
+.navabar .menu li a
+{
+    color:#f7f7f5;
+    padding: 0 5px;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-left: 20px;
+    transform: color 0.3s ease;
+}
+.navabar .menu li a:hover
+{
+    
+    color: rgb(255, 255, 255);
+
+
+
+}
+.navabar.sticky .menu li a
+{
+    color: rgb(255, 255, 255);
+}
+
+.navabar.sticky .menu li a:hover
+{
+    color: #a80404;
+    
+} 
+.menu-btn
+{
+    color: #f7f7f5;
+    
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.navabar.sticky .menu-btn
+{
+    color: #f7f7f5;
+    
+}
+.text {
+    font-weight: 100;
+    font-size: 28px;
+    color: #FAFAFA;
+  }
+  
+.dud 
+{
+    color: #757575;
+}
+/* --------------------home----------------------- */
+.home
+{
+    display: flex;
+    background:#101418;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    color: rgb(255, 255, 255);
+    min-height: 500px;
+    font-family: "ubuntu", sans-serif;
+    object-fit: cover;
+    opacity: 1;
+
+}
+.home video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.home .max-width
+{
+    margin: auto 0 auto 40px;
+    z-index: 10;
+}
+.home .home-content .text-1
+{
+    font-size: 2rem;
+}
+.home .home-content .text-2
+{
+    font-size: 4em;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3 
+{
+    font-size: 3em;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span
+{
+    font-size: 3rem;
+    color: #a80404;
+    font-weight: 500;
+}
+.home .home-content a
+{
+    display: inline-block;
+    background: #CFD11A;
+    text-decoration: none;
+    color: #111519;
+    font-size: 1.2rem;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #CFD11A;
+    transition: all 0.3s ease;
+}
+.home.sticky .home-content a
+{
+    background: #a80404;
+    border: 2px solid #a80404;
+    color: rgb(255, 255, 255);
+}
+.home .home-content a:hover
+{
+    color: rgb(255, 255, 255);
+    background: none;
+}
+#aSide {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50% - 300px);
+    right: 7%;
+}
+
+#aSide img,
+model-viewer {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* -------------midle svg------------------ */
+.way-point 
+{
+  
+    fill: #fff;
+    margin-left: 30vw;
+    margin-top: -35px;
+   
+}
+
+/* --------------------------about-------------------- */
+
+.about
+{
+    
+    background-color: #fff;
+    width: 100%;
+    height: 70vh;
+    
+    
+}
+.about h3
+{  
+   position: absolute;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #29293a;
+    left: 0;
+    margin-left: 120px;
+    font-size: 2.5vw;
+    z-index: 1;
+    
+    margin-top: 80px;
+}
+.about h2
+{
+    position: absolute;
+    left: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: 700;
+    font: 900 7vw/1 "Montserrat", sans-serif;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color:#f2f3f9;
+    
+}
+
+.nav ul
+{  
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 180px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    width: 600px;
+    line-height: 50px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+  
+    
+  
+    color: #101418;
+}
+.nav ul li
+{
+    /* padding-right: 40px; */
+    font-size: 25px;
+   display: inline-block;
+   text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.nav .anim
+{
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    z-index: 0;
+   
+    background-color: #a80404;
+    transition: all .5s ease 0s;
+    
+}
+.nav ul li:nth-child(2)
+{
+   width: 150px;
+}
+.nav .homestart,.nav ul li:nth-child(2):hover~.anim
+{
+    width: 150px;
+    left: 150px;
+}
+.nav ul li:nth-child(3)
+{
+   width: 150px;
+   
+}
+.nav .homestart,.nav ul li:nth-child(3):hover~.anim
+{
+    width: 150px;
+    left: 300px;
+}
+.nav ul li:nth-child(1)
+{
+   width: 150px;
+    
+}
+.nav .homestart,.nav ul li:nth-child(1):hover~.anim
+{
+    width: 150px;
+    left: 0;
+}
+
+
+.nav ul li:hover
+{
+    color: #a80404;
+}
+/* ---------------content in about------------- */
+#overview
+{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    font-size:  1rem;
+    color: #838386;
+    padding-left: 100px;
+    margin-top: 300px;
+}
+#overview span
+{
+    color: #a80404;
+    font-size:  1rem;
+    font-weight: 700;
+}
+#mission
+{
+    display: none;
+    
+    position: absolute;
+    width: 600px;
+    height: auto;
+    font-size:  1rem;
+    color: #838386;
+    padding-left: 100px;
+    margin-top: 300px;
+}
+#vision
+{
+    
+    position: absolute;
+    width: 600px;
+    height: auto;
+    font-size:  1rem;
+    color: #838386;
+    padding-left: 100px;
+    margin-top: 300px;
+    display: none;
+}
+/* ----------outline------------- */
+.outline
+{
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    color:#838386 ;
+}
+.outl
+{
+    position: absolute;
+    margin-top: 20px;
+}
+.outl h2
+{
+    margin-left: 100px;
+    font: 700 40px/1 "Montserrat", sans-serif;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    width: 680px;
+    letter-spacing: .05em;
+    color:#a80404;
+}
+.outl .aa
+{
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+    width: 800px;
+}
+.readbtn
+{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 180px;
+    color: #fff;
+    width: 80px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #101418;
+}
+.readbtn:hover
+{
+    background-color: #fff;
+    border: 1px solid #101418;
+    color: #101418;
+}
+.outl .bb
+{
+    display: none;
+    height: 50vh;
+    margin-top: 170px;
+    margin-left: 100px;
+    position: absolute;
+    width: 800px;
+    
+}
+/* ----------------------contact info------------------ */
+.contact
+{
+    background-color: #fff;
+    
+}
+.contact h1{
+    font: 700 30px/1 "Montserrat", sans-serif;
+    margin-left: 100px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    width: 600px;
+    color: #a80404;
+    
+}
+.colm
+{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+   
+    font-weight: 500;
+    
+   
+}
+.colm i{
+    font-size: 14px;
+    color: #a80404;
+}
+.colm1 ul li,.colm2 ul li
+{
+    font-size: 14px;
+    list-style: none;
+    font-weight: 800;
+}
+
+.colm1 span,.colm2 span
+{
+    color: #838386;
+    padding-left: 5px;
+    font-size: 9px;
+    
+}
+.colm2
+{
+    margin-left: 300px;
+}
+/* --------market---------------------- */
+#market{
+
+    background-color: #fff;
+    height: 120vh;
+    width: 100%;
+}
+.market
+{
+    position: absolute;
+   width: 680px;
+   
+   
+}
+.market h2,.marktdep h2,.workshop h2
+{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    width: 600px;
+    font: 700 25px/1 "Montserrat", sans-serif;
+    letter-spacing: .05em;
+    color:#a80404;
+}
+.market p
+{
+    position: absolute;
+    margin-left: 100PX;
+    margin-top: 80PX;
+}
+.market ul {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+.marktdep{
+    
+    margin-top: 250px;
+   
+    color:#101418;
+}
+.marktdep img
+{
+    position: absolute;
+   
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 360px;
+    z-index: 0;
+    opacity: .3;
+    height: auto;
+}
+
+.workshop h2
+{
+    margin-left: 100px;
+    margin-top: 400px;
+}
+.depimg2 img
+{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 100px;
+    width: 360px;
+    z-index: 0;
+    opacity: .3;
+    height: auto;
+}
+
+.workshop p
+{
+    margin-left: 100px;
+    margin-top: 450px;
+}
+/* -----------------------product-------------------------- */
+#prdct
+{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+  
+}
+#prdct h2
+{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    width: 600px;
+    margin-left: 100px;
+    font: 700 30px/1 "Montserrat", sans-serif;
+    color: #a80404;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.card{
+margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 230px;
+    height: 300px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    align-items: flex-end;
+    
+    box-shadow: 0px 7px 10px rgba(0,0,0,0,0.5);
+    transition: .5s ease-in-out;
+}
+.card:hover
+{
+    transform: translateY(20px);
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #e5e2cf8e;
+    z-index: 2;
+    transition: .5s all;
+    opacity: 0;
+
+
+}
+.card:hover:before
+{
+    opacity: 1;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card .info
+{
+    position: relative;
+    z-index: 3;
+    color: #a80404;
+    opacity: 1;
+    transform: translateY(30px);
+    transition: .5s all;
+}
+/* -----------------policy------------ */
+.policy
+{
+    width: 100%;
+    height: 120vh;
+    background: #fff;   
+    position: absolute;
+   
+}
+.pol
+{
+    width:  600px;;
+}
+.pol h2
+{
+    
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+   
+    margin-left: 100px;
+    font: 700 30px/1 "Montserrat", sans-serif;
+    color: #a80404;
+}
+.pol p
+{
+    margin-left: 100px;
+   
+    margin-top: 30px;
+}
+.policy ul
+
+{
+   
+    margin-left: 120px;
+    
+   
+    margin-top: 10px;
+}
+/* --------------------------sponsor-------------- */
+.spon
+{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
+.spon h2{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    width: 600px;
+    font: 700 30px/1 "Montserrat", sans-serif;
+    color: #a80404;
+}
+.spon .im img
+{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    
+    height: auto;
+}
+.ima
+{
+   
+    display:flex;
+    justify-content: space-between;
+}
+.spo
+{
+    position: absolute;
+    width: 600px;
+    margin-top: 10px;
+    
+    
+}
+.spo .imt img
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 300px;
+    
+    height: auto;
+}
+.imat
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* footer ----------------------section */
+
+footer{
+    background:#111519 ;
+    padding: 15px 18px;
+    text-align: center;
+    
+}
+footer span
+{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+footer span a{
+    color:#a80404;
+    font-size: 15px;
+    text-decoration: none;
+}
+footer span a:hover{
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+/* content -- section--*/
+
+
+@media (max-width:720px){
+    #aSide
+    {
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 20px;
+        
+      
+    }
+
+model-viewer {
+    margin-top: 10px;
+        height: 400px;
+        width: 300px;
+    }
+    .home .home-content
+    {
+        position: absolute;
+        margin-top: 70px;
+    }
+    .home .home-content .text-1
+{
+    font-size: 1rem;
+}
+
+    .home .home-content .text-2
+{
+    font-size: 2.6em;
+}
+    .home .home-content .text-3 
+{  
+    font-size: 1.5rem;
+    
+}
+.home .home-content .text-3 span
+{
+    font-size: 1.5rem;
+}
+    .max-width
+{
+    padding: 0  50px;
+
+}
+
+
+.menu-btn
+{
+    display: block;
+    z-index: 999;
+    
+    
+}
+.menu-btn i.active::before
+{
+ content: "\f00d";   
+ color: rgb(255, 255, 255);
+}
+.navabar .menu
+{
+    position: fixed;
+    height: 100%;
+    width: 70%;
+    right: -100%;
+    top: 0;
+    
+    background: #101418c4;
+    text-align: center;
+    padding-top: 100px;
+    transition: all 0.3s ease;
+    
+}
+.navabar .menu.active
+{
+    right: 0;
+}
+.navabar .menu li
+ {
+     display: block;
+   
+     
+ }
+ i  
+ {
+     font-size: 25px;
+ }
+ .navabar .menu li a 
+ {
+    display: inline-block;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    padding: 12px 36px;
+    margin-top: 0px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 1.3em;
+    transition: all .3s ease;
+}
+.navabar .menu li a:hover
+{
+    color: #a80404;
+}
+/* ----------------------middle bar------------ */
+.way-point 
+{
+   
+    
+    margin-left: 25vw;
+    
+}
+/* -----------------about-------------- */
+.about h2
+{
+    font-size: 12vw;
+    margin-left: 20px;
+}
+.about h3
+{
+    margin-left: 20px;
+    margin-top: 65px;
+    font-size: 5vw;
+}
+.nav ul
+{  
+    
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 130px;
+    width: 90%;
+
+    
+  
+   
+}
+
+.nav ul li {
+    font-size: 15px;
+
+};
+
+.nav ul li:nth-child(2)
+{
+   width: 100px;
+   
+}
+.nav .homestart,.nav ul li:nth-child(2):hover~.anim
+{
+    width: 100px;
+    left: 120px;
+}
+
+.nav ul li:nth-child(3)
+{
+   width: 100px;
+   
+}
+
+.nav .homestart,.nav ul li:nth-child(3):hover~.anim
+{
+    width: 100px;
+    left: 250px;
+}
+.nav ul li:nth-child(1)
+{
+   width: 100px;
+   
+}
+
+.nav .homestart,.nav ul li:nth-child(1):hover~.anim
+{
+    width: 100px;
+    left: 0;
+}
+#overview,#mission,#vision
+{
+    width: 90%;
+    height: auto;
+    padding-left: 50px;
+    margin-top: 250px;
+}
+/* ------------------outline ------------------- */
+.outline
+{
+   
+    height: 100vh;
+    }
+
+.outl h2
+{
+    width: 300px;
+    margin-left: 20px;
+    font: 700 30px/1 "Montserrat", sans-serif;
+    
+}
+.outl .aa
+{
+    margin-left: 20px;
+    width: 360px;
+}
+.outl .bb
+{
+    margin-left: 20px;
+    margin-top: 320px;
+    width: 360px;
+}
+.readbtn
+{
+    margin-left: 20px;
+    margin-top: 320px;
+}
+/* -------------------content------------- */
+.contact h1
+{
+    width: 90%;
+    
+    margin-left: 20px;
+}
+.colm
+{
+    margin-left: 20px;
+    padding: 5px;
+  
+}
+.colm2
+{
+    margin-left: 20px;
+}
+/* ------------------------market---------------------- */
+.market
+{
+    width: 360px;
+}
+.market h2,.marktdep h2,.workshop h2
+{
+    width: 90%;
+    font-size: 4.5vw;
+    margin-left: 20px;
+}
+.market ul
+{
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.marke p,.market p,.marktdep p
+{
+    margin-left: 20px;
+    width: 360px;
+}
+.depimg2 img,.depimg img
+{
+    margin-left: 20px;
+}
+/* ----------------------card----------------- */
+#prdct
+{
+    height: 80vh;
+}
+#prdct h2
+{
+    width: 90%;
+    margin-left: 20px;
+}
+.card
+{
+    width: 200px;
+    height: 180px;
+}
+/* -----------------------policy--------------------- */
+.pol 
+{
+    width: 90%;
+    height: 70vh;
+    
+}
+.pol h2,.pol p
+{
+    margin-left: 20px;
+}
+.pol ul
+{
+    margin-left: 30px;
+}
+.spon
+{
+    width: 280px;
+    margin-left: 10px;
+}
+.spon .im img
+{
+    width: 80px;
+    margin-left: 10px;
+}
+.spon h2
+{
+    width: 300px;
+    font-size: 25px;
+}
+.spo
+{
+    width: 300px;
+   
+}
+.spo .imt img
+{
+    width: 80px;
+    margin-left: 10px;
+}
+}

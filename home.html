@@ -1,0 +1,377 @@
+<htm>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>AMD</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!-- -----------------div animation-------------------- -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- ----------------------------------------home animation------------------------- -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+       
+<!-- ----------------------------------------------------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:100">
+        
+
+    </head>
+    <body>
+      <nav class="navabar">
+          <div class="max-width">
+              <div class="log " data-aos="zoom-in"><img src="./assets/img/amd11.png" alt=""><a href="#">AMD</a></div>
+              <ul class="menu">
+                  <li><a href="#home">Home </a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#service">Outline </a></li>
+                  <li><a href="#contact">Company Info</a></li>
+                  <li><a href="#market">Departments 
+                </a></li>
+                  <li><a href="#spon"> BUSINESS PARTNERS</a></li>
+
+
+              </ul>
+              <div class="menu-btn"  data-aos="zoom-in">
+                <i class="fas fa-bars"></i>
+              </div>
+          </div>
+      </nav>
+      
+
+      <section class="home" id="home">
+        <div id="aSide">
+            
+            <model-viewer class="model" src="./assets/logo/Tractor.glb" alt="model robot" auto-rotate camera-controls ></model-viewer>
+        </div>
+        <div class="max-width">
+              <div class="home-content">
+                  
+                  <div class="text-2"  data-aos="zoom-in">AMD</div>
+                  <div class="text-3"  data-aos="zoom-in"> <span class="typ"></span></div>
+                  <div class="text-1"  data-aos="zoom-in">Bright People Right Solutions</div>
+              </div>
+          </div>
+          
+      </section>
+      <script>
+        AOS.init();
+      </script>
+<!-- about section-->
+<div class="way-point" data-custom-scroll-to="#main-features">
+    <svg version="1.1" x="0px" y="0px" width="253px" height="38px" enable-background="new 0 0 253 38" xml:space="preserve">
+      <path style="clip-path: url(#gel)" fill-rule="evenodd" clip-rule="evenodd" d="M252,36.001C199.397,36.001,176,0,125.815,0C76,0,52.988,36.001,0,36.001C4.336,40.465,273.563,36.001,252,36.001z"></path>
+    </svg>
+   </div>
+<section id="about" class="about">
+
+    
+
+  <div class="abt">
+    <h3>Our story</h3>
+    <h2>ABOUT US</h2>
+  </div>
+<div class="nav">
+    <ul class="menu">
+       <li id="a" onclick=" overview()">OVERVIEW</li>
+       <li id="b" onclick=" mission()">MISSION</li>
+       <li id="c" onclick=" vision()">VISION</li>
+       <div id="d" class="anim homestart">
+           
+
+    </ul>
+   
+
+    
+</div>
+
+    <div id="overview"><p></p><span>AMD</span> is a Kerala based company being managed by a team who are equipped with extensive
+        trading experience in the fields of Industrial and Agricultural (Sales). The company was established in 
+        early 2015 with the intention of providing first class sales that meets and satisfies customer 
+        requirements at competitive rates. We have our head office located in Kochi With the strategic
+        location, this allows us to provide better local market coverage within the country with our 
+        worldwide-reliable agents who are also operating unique services and allow them to negotiate 
+        at good competitive rates.</p></div>
+   </div>
+   <div id="mission">
+    The company believes that we are successful only when our customers and suppliers are successful. We 
+    will realize this mission by setting the highest standards in products services, reliability and integrity in 
+    the industry. 
+   </div>
+   <div id="vision"><p>
+    <h1 style="color: #29293a;  font-size: 18px; ">In order to fulfill our mission, we:,</h1>
+     <ul>
+        <li>
+             Deliver excellence in every aspect of our business.
+        </li>
+        <li>  Understand the needs of our customers and match that need with the right product from the
+            right supplier at the right time – every time.</li>
+        <li> Strive to build long-term relationships with customers and suppliers based onmutual trust
+                and respect.</li>
+         <li> Strive to build long-term relationships with customers and suppliers based onmutual trust
+                    and respect.</li>
+         <li> Aimtobe are liable source of timely information that is useful toour customers and suppliers.
+                    </li>
+    </ul>
+   
+   
+   
+    </p>
+   </div>
+
+<script>
+     function mission() {
+    document.getElementById("mission").style.display = "block";
+    document.getElementById("vision").style.display = "none";
+    document.getElementById("c").style.color="#101418";
+    document.getElementById("a").style.color="#101418";
+    document.getElementById("b").style.color="#a80404";
+    
+    document.getElementById("overview").style.display = "none";
+  }
+  function vision() {
+    document.getElementById("mission").style.display = "none";
+    document.getElementById("vision").style.display = "block";
+    document.getElementById("c").style.color="#a80404";
+    document.getElementById("a").style.color="#101418";
+    document.getElementById("b").style.color="#101418";
+    document.getElementById("overview").style.display = "none";
+    
+  }
+  function overview() {
+    document.getElementById("mission").style.display = "none";
+    document.getElementById("vision").style.display = "none";
+    document.getElementById("overview").style.display = "block";
+    document.getElementById("c").style.color="#101418";
+    document.getElementById("a").style.color="#a80404";
+    document.getElementById("b").style.color="#101418";
+   
+    
+    
+    
+  }
+  
+</script>
+   
+</section>
+          
+<section class="outline" id="service">
+    <div class="outl">
+        
+        <h2>OUTLINE</h2>
+     
+    <div class="aa">
+        <p>
+            Bright People Right Solutions. The company personifies the value we bring to our clients and that is 
+what distinguishes us within the industry. Our corporate culture cultivates passionate, talented, 
+problem-solvers employees who deliver “big company” resources with industry-leading teamwork 
+and responsiveness. We provide the right solutions by achieving a deep understanding to our 
+client’s businesses and needs. Our client’s business is treated with urgency and respect, and 
+we work relentlessly to meet or exceed their expectations. Our company is organized along with 
+the major service lines of agricultural, manufacturing, government-sector, contracting and services 
+to align with our client’s needs
+        </p>
+    </div>
+    <div id="readbtn"class="readbtn" onclick="readbt()" >Read more</div>
+    <div id="outbb"class="bb">
+        <p>
+            We have an extensive internal training and progressive program 
+that equips our employees with up-to-date industry knowledge and provides clearly-defined 
+career paths and opportunities. Stewardship of our company, industry, and communities is a key 
+priority. The company is a sustainable, financially-strong business that advocates environmentally 
+and socially-considerate decisions for its clients, employees, and the industry in which we operate. 
+We promote our industry’s growth by sharing knowledge and fostering science and engineering 
+outreach in higher education. We volunteer extensively within our local communities to raise 
+awareness and make an impact on the welfare of our communities and society. After you reviewed 
+the depth and breadth of our company, we are sure you’d be proud to be associated with Luxury 
+Dreams.
+        </p>
+    </div>
+        
+</div>
+<script>
+    function readbt(){
+        document.getElementById("readbtn").style.display = "none";
+        document.getElementById("outbb").style.display = "block";
+
+    }
+</script>
+</section>
+<section class="contact" id="contact">
+    <h1>COMPANY INFO</h1>
+    <div class="colm">
+        <div class="colm1">
+            <ul>
+                <li> <i class="fas fa-warehouse"></i> Name : <br> <span>AMDTrading & <br> Contracting Company</span></li>
+                <li> <i class="fas fa-user"></i> Contact Person : <br> <span>Daljeet Singh</span></li>
+                <li> <i class="fas fa-user"></i> Contact Person: <br><span> Rajesh Sarla</span> </li>
+                <li> <i class="fas fa-user-cog"></i> Partners/Managers: <br><span> Mr Manoj Sarla</span></li>
+                <li><i class="fas fa-map-marker-alt"></i>  Address : <br><span> 220 Stores,
+                    AMD trading <br> Street,
+                     Kochi 
+                     ,Kerala
+                     691501</span> </li>
+                
+                    
+            </ul>
+        </div>
+        <div class="colm2">
+            <ul>
+                <li> <i class="fas fa-university"></i> Bank Details: <br> <span>SBI Kochi</span> 
+                </li>
+                <li> <i class="fas fa-wrench"></i> Year Established: <br><span>2015</span></li>
+                <li> <i class="fas fa-building"></i>  Type of Company: <br><span>Trading</span></li>
+                <li> <i class="fas fa-location-arrow"></i>  Geo. Preferences: <br><span>Nationwide</span>
+                </li>
+                
+            </ul>
+        </div>
+      
+    </div>
+</section>
+<!-- ----------------------------department----------------------- -->
+<section id="market">
+    <div class="market">
+        <h2> DEPARTMENTS</h2>
+        <p>AMD Trading Company is one of the leading and experienced trading companies in Kochi. The main
+            achievement of this trading company is to satisfy industrial and agricultural companies as well 
+            as individual customers too, below are departments that compose our company.
+        <ul>
+            <li>MARKETING DEPARTMENT </li>
+            <li>WORKSHOP DEPARTMENT</li>
+        </ul></p>
+        <div class="marktdep">
+            <h2>MARKETING DEPARTMENT</h2>
+            <div class="depimg">
+                <img src="./assets/img/shopdep.png" alt="">
+                <p>Our company provides a full range of industrial equipment including, but not limited to, generator 
+                    sets, forklifts, irrigation systems, farm tractors and other agricultural machineries. Our services 
+                    include worldwide sales for industrial, agricultural and even small-scale businesses. The marketing 
+                    department can provide information on rates, specifications, designs, and logistical support, as
+                    well as delivery information regarding the origin and destination for both equipment and spare 
+                    parts.</p>
+            </div>
+        </div>
+        <div class="workshop">
+            <h2>WORKSHOP DEPARTMENT</h2>
+            <div class="depimg2">
+                <img src="./assets/img/wrk2.png" alt="">
+            <p>Our company provided a workplace where we can repair broken equipment by clients. This is also the 
+                place where we store common spare parts that is usually damaged and broken in equipment 
+                brought in the workshop. Since the workplace plays a vital role in our service, we ensure that our 
+                warehouse is safe, secured, clean and complete with tools and equipments that makes our 
+                engineers and mechanical Team more Productive. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- --------------------------product----------------------- -->
+<section id="prdct">
+    <h2>Our products</h2>
+   <div class="prdct1">
+    <div class="wrapper">
+        <div class="card">
+            <img src="./assets/img/power generator.jpg" alt="">
+            <div class="info">
+                <h1>Power generator</h1>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/img/new age stamford.jpg" alt="">
+            <div class="info">
+                <h1>New age Stamford
+                </h1>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/img/blumag.jpg" alt="">
+            <div class="info">
+                <h1>Blumaq                </h1>
+            </div>
+        </div>
+        
+    </div>
+   </div>
+   <div class="prdct2">
+    <div class="wrapper">
+        <div class="card">
+            <img src="./assets/img/bepco.jpg" alt="">
+            <div class="info">
+                <h1>. Bepco / Agriline</h1>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/img/twin disc.jpg" alt="">
+            <div class="info">
+                <h1>Twin Disc</h1>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/img/climax.jpg" alt="">
+            <div class="info">
+                <h1>Climax</h1>
+            </div>
+        </div>
+        
+    </div>
+   </div>
+</section>
+<section class="policy">
+    <div class="pol">
+    <h2>QUALITY POLICY</h2>
+    <p>
+        AMD aims to become a pioneer and leading company in providing products and services
+relating to Industrial and Agricultural fields. We reaffirm our commitment in providing quality, 
+cost- effective and timely services to our clients by: </p>
+<ul><li> Understanding customer requirements.</li>
+    <li> Providing a strong support base of professional experts for development and evaluation of the
+products and services.</li>
+<li> Adhering to guidelines defined by both national and international standards organizations
+for development, supply, installation and training to our customers.</li>
+<li> Maintaining a low attrition rate and self-motivated staff.</li>
+<li> Establishing and reviewing of Quality Objectives in line with changes in technology.</li>
+
+</ul><p>
+We are determined to exceed customers’ expectations through continual process improvement and 
+innovation. 
+    </p>
+</div>
+
+<div id="spon" class="spon">
+    <h2> BUSINESS PARTNERS</h2>
+    <div class="ima">
+        <div class="im"><img src="./assets/img/agriline.png" alt=""></div>
+    
+    <div class="im"><img src="./assets/img/alanta power.png" alt=""></div>
+    <div class="im"><img src="./assets/img/bepco.png" alt=""></div>
+    <div class="im"><img src="./assets/img/blumaq.png" alt=""></div>
+</div>
+<div class="spo">
+    
+    <div class="imat">
+        <div class="imt"><img src="./assets/img/cam.png" alt=""></div>
+    
+    <div class="imt"><img src="./assets/img/stamford logo.png" alt=""></div>
+    <div class="imt"><img src="./assets/img/tvh.png" alt=""></div>
+    <div class="imt"><img src="./assets/img/twin-disc-logo.png" alt=""></div>
+</div>
+
+</section>
+
+    
+
+         
+
+<!-- footer ---------------------------------------section -->
+<footer>
+    <span>Created By <a href="#">Safwan Kajas</a> | <span class="far fa-copyrighr">2021 All right reserved </span></span>
+</footer>
+
+        <script src="./assets/script/index.js"></script>
+    </body>
+</htm>
